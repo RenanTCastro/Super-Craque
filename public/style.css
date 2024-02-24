@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+body,
+html {
+    margin: 0;
+    background-color: #131A08;
+    padding-left: 3.12vw;
+    font-family: "Kavoon", serif;
+}
+
+.header {
+    display: flex;
+    width: 87.5vw;
+    height: 8.5vw;
+    margin-top: 3.1vw;
+}
+
+.logo {
+    width: 17.8vw;
+    height: 8.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.stats {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7.8vw;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2vw;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 12.9vw;
+    height: 5.9vw;
+    padding: 0 2.7vw 0 2.7vw;
+    align-items: center;
+}
+
+.stat>.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat>.bottom {
+    display: flex;
+}
+
+.stat.level {
+    max-width: 25vw;
+    width: 25vw;
+    align-items: normal;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 1.6vw;
+    background-color: #131A08;
+}
+
+.progress-bar>.bar {
+    flex: 1;
+    height: 1.6vw;
+    background-color: #FFD600;
+}
