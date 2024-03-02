@@ -4,7 +4,6 @@ body,
 html {
     margin: 0;
     background-color: #131A08;
-    padding-left: 3.12vw;
     font-family: "Kavoon", serif;
 }
 
@@ -16,6 +15,7 @@ html {
     width: 87.5vw;
     height: 8.5vw;
     margin-top: 3.1vw;
+    padding-left: 6vw;
 }
 
 .logo{
@@ -76,6 +76,7 @@ html {
     display: flex;
     gap: 1.464vw;
     margin-top: 3.66vw;
+    padding-left: 6vw;
 }
 
 .nav-bar-item{
